@@ -106,10 +106,12 @@
 
 
 --app.js
+
     ...
     app.use(express.static(path.join(__dirname, 'public')));
     app.use(express.static('apidoc'));  //추가
 
+--실행
 
     npm install apidoc --save
 
