@@ -22,7 +22,6 @@
      *           , password: userpw
      *       };
      *       var token = jwt.sign(payload, config.jwtSecret);
-     *       console.log('access_token = '+token);
      *       res.json({
      *           access_token: token
      *       });
