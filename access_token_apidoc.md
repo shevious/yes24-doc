@@ -17,9 +17,6 @@
      *
      *
      * @apiSuccessExample Source:
-     *   const userid = req.param('username');
-     *   const userpw = req.param('password');
-     *   if (userid && userpw) {
      *       var payload = {
      *           id: userid
      *           , password: userpw
@@ -29,11 +26,6 @@
      *       res.json({
      *           access_token: token
      *       });
-     *   } else {
-     *       res.status(403).json({
-     *           message: "access_denied"
-     *       });
-     *   }
      *
      * @apiSampleRequest http://192.168.33.10:3000/api/access_token
      *
